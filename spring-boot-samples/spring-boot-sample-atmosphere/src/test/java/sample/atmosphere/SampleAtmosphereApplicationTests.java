@@ -78,7 +78,7 @@ public class SampleAtmosphereApplicationTests {
 		private String webSocketUri;
 
 		private final CountDownLatch latch = new CountDownLatch(1);
-private final CountDownLatch latch1 = new CountDownLatch(1);
+
 		private final AtomicReference<String> messagePayload = new AtomicReference<String>();
 
 		@Override
